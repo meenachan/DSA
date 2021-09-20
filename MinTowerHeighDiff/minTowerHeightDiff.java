@@ -9,7 +9,6 @@ public class minTowerHeightDiff{
                 System.out.println("Minimum Tower height difference is: " +getMinDiff(a,n,k));
     }
   public static  int getMinDiff(int[] arr, int n, int k) {
-        // code here
     Arrays.sort(arr);
     
     int curdiff = arr[n-1]-arr[0];
