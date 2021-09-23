@@ -1,3 +1,4 @@
+package dnfp;
 /*Sort an array of 0s, 1s and 2s
  Difficulty Level : Medium
  Given an array A[] consisting 0s, 1s and 2s. The task is to write a function that sorts the given array. The functions should put all 0s first, then all 1s and all 2s in last.
@@ -71,7 +72,7 @@ return a;
 
 
 /*
- Approach 2:The problem is similar to our old post Segregate 0s and 1s in an array, and both of these problems are variation of famous Dutch national flag problem.
+ Approach 2:Segregate 0s and 1s in an array, and both of these problems are variation of famous Dutch national flag problem.
 The problem was posed with three colours, here `0′, `1′ and `2′. The array is divided into four sections: 
 a[1..Lo-1] zeroes (red)
 a[Lo..Mid-1] ones (white)
